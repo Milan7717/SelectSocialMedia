@@ -1,0 +1,40 @@
+body {
+    font-family: sans-serif;
+    background: linear-gradient(135deg,
+            rgb(234, 136, 234) 30%,
+            rgb(210, 133, 51) 80%);
+}
+
+.menu p{
+    display: flex;
+    align-items: center;
+    
+}
+
+li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: padding 0.3s linear;
+}
+
+li:hover {
+    background-color: darkgray;
+    padding-left: 10px;
+}
+
+
+.menu .fa-solid{
+    transition: transform .2s;
+}
+
+
+.rotate .fa-solid {
+    transform: rotate(180deg);
+
+}
+
+.hide{
+    visibility: hidden;
+}
